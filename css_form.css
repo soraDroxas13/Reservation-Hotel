@@ -4,7 +4,8 @@
     --orange-sombre : rgba(254, 161, 22, 0.2);
     --write: #F1F8FF;
     --dark: #0F172B;
-    --ombre: 4px 5px 4px 5px rgb(246, 203, 160);
+    --ombre: 3px 4px 3px 4px rgb(126, 126, 125);
+    --ombre-orange: 4px 5px 4px 5px rgb(246, 203, 160);
 }
 
 
@@ -65,6 +66,9 @@ p{
 input {
     width: 300px;
     height: 25px;
+    
+    border: none;
+    box-shadow: var(--ombre);
 }
 
 button {
@@ -73,6 +77,7 @@ button {
     color: var(--write);
     background-color: var(--orange);
     border: none;
+    box-shadow: var(--ombre);
 }
 
 button:hover {
